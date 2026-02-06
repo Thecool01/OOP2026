@@ -97,7 +97,7 @@ public class Time {
         return result;
 
     }
-    public Time adding_time(Time t) {
+    public void adding_time(Time t) {
         // Sum of the SECONDS
         int totalSeconds = this.seconds + t.seconds;
         int extraMin = totalSeconds / 60;
@@ -112,7 +112,6 @@ public class Time {
         int totalHours = this.hours + t.hours + extraHours;
         this.hours = totalHours % 24;
 
-        return this;
     }
 
 }

@@ -6,7 +6,7 @@ public class StarTriangle {
     public StarTriangle(int width) {
         this.width = width;
     }
-    @Override
+
     public String toString() {
         String result = "";
 
