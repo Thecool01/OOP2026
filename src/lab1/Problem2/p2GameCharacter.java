@@ -1,4 +1,4 @@
-package lab1;
+package lab1.Problem2;
 
 public class p2GameCharacter {
     public enum Role {WARRIOR, ARCHER} // ENUMS
@@ -11,8 +11,6 @@ public class p2GameCharacter {
 
     private final String name;
     private final Role role;
-    public static double hpMultiplier = 1.0; // STATIC NON-FINAL
-    public static double expMultiplier = 1.0; // STATIC NON-FINAL
 
     private int level;
     private int hp;

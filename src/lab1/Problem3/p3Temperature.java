@@ -1,4 +1,4 @@
-package lab1;
+package lab1.Problem3;
 
 public class p3Temperature {
     private double value;
