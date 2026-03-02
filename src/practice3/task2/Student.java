@@ -36,7 +36,7 @@ public class Student extends Person {
         this.fee = fee;
     }
 
-    @Override
+//    @Override
     public String toString() {
         return ("Student: " + super.toString() + ", program: " + program + ", year: " + year + ", fee:  " + fee);
     }
