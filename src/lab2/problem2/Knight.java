@@ -10,8 +10,8 @@ public class Knight extends Piece {
         if (!insideBoard(b) || samePosition(b)) return false;
 
         else {
-            return (absoluteDeltaRow(b) == 2 & absoluteDeltaCol(b) == 1) ||
-                    absoluteDeltaRow(b) == 1 & absoluteDeltaCol(b) == 2;
+            return (absoluteDeltaRow(b) == 2 && absoluteDeltaCol(b) == 1) ||
+                    absoluteDeltaRow(b) == 1 && absoluteDeltaCol(b) == 2;
             // KNIGHT CAN MOVE ONLY IN AN L-shape -
             // FOR EXAMPLE: UP BY 2 AND LEFT BY 1, etc.
         }

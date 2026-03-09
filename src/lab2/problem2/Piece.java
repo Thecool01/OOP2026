@@ -54,6 +54,8 @@ public abstract class Piece {
 
     public abstract boolean isLegalMove(Position b);
 
-    // public abstract void moveTo(Position b);
+    public void setPosition(Position a) {
+        this.a = a;
+    }
 }
 
