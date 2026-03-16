@@ -1,12 +1,12 @@
-package practice4;
+package practice4.Part1;
 
-import practice4.Interfaces.Movable;
+import practice4.Part1.Interfaces.Movable;
 
 public class Animal implements Movable {
     private String name;
-    private String age;
+    private int age;
 
-    public Animal(String name, String age) {
+    public Animal(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -17,10 +17,10 @@ public class Animal implements Movable {
     public void setName(String name) {
         this.name = name;
     }
-    public String getAge() {
+    public int getAge() {
         return age;
     }
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
