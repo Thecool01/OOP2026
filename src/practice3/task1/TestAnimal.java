@@ -4,12 +4,12 @@ public class TestAnimal {
 
     public static void main(String[] args) {
 
-        System.out.println("===== Animal Test =====");
+        System.out.println("===== Creature Test =====");
         Animal a1 = new Animal();
         a1.walking();
         a1.makeAction();
 
-        System.out.println("\n ---- Animal with parameters ----");
+        System.out.println("\n ---- Creature with parameters ----");
         Animal a2 = new Animal("Barsik", 3, "Ivan");
         a2.eat();
         a2.sleep();

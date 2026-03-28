@@ -6,21 +6,21 @@ public class Animal {
     protected String owner;
 
     public Animal() {
-        System.out.println("Animal was created!");
+        System.out.println("Creature was created!");
     }
 
     public Animal(String name, int age) {
         this.name = name;
         this.age = age;
-        System.out.println("Animal's name: " + this.name + ", and age: " + this.age);
+        System.out.println("Creature's name: " + this.name + ", and age: " + this.age);
     }
 
     public Animal(String name, int age, String owner) {
         this.name = name;
         this.age = age;
         this.owner = owner;
-        System.out.println("Animal's name: " + this.name + ", and age: " + this.age);
-        System.out.println("Animal's owner: " + this.owner);
+        System.out.println("Creature's name: " + this.name + ", and age: " + this.age);
+        System.out.println("Creature's owner: " + this.owner);
     }
 
     public String getName() {
@@ -41,7 +41,7 @@ public class Animal {
 
     public String getOwner() {
         if (owner == null) {
-            System.out.println("Animal does not have an owner!");
+            System.out.println("Creature does not have an owner!");
             return null;
         }
         else {
@@ -55,24 +55,24 @@ public class Animal {
 
 
     public void walking() {
-        System.out.println("Animal is walking!");
+        System.out.println("Creature is walking!");
     }
 
     public void eat() {
-        System.out.println("Animal is eating!");
+        System.out.println("Creature is eating!");
     }
 
     public void sleep() {
-        System.out.println("Quiet! Animal is sleeping!");
+        System.out.println("Quiet! Creature is sleeping!");
     }
 
     public void makeAction() {
-        System.out.println("Animal is making just action!");
+        System.out.println("Creature is making just action!");
     }
 
     @Override
     public String toString() {
-        return "Animal{name='" + name +
+        return "Creature{name='" + name +
                 "', age=" + age +
                 ", owner='" + owner + "'}";
     }
