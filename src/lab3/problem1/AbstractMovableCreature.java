@@ -38,6 +38,5 @@ public abstract class AbstractMovableCreature implements Movable {
         System.out.println(name + " is moving (from AbstractMovableCreature)");
     }
 
-    // Абстрактный метод — обязаны реализовать все наследники
     public abstract void makeSound();
 }

@@ -7,12 +7,12 @@ public class Animal extends AbstractMovableCreature {
 
     @Override
     public void move() {
-        System.out.println("Animal is moving");
+        System.out.println("Creature is moving");
     }
 
     @Override
     public void makeSound() {
-        System.out.println("Animal is making sound");
+        System.out.println("Creature is making sound");
     }
 
 }
